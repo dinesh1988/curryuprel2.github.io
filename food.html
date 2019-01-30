@@ -52,135 +52,180 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="content-filtecss/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="content-filter-master/css/style.css"> <!-- Resource style -->
+	<script src="content-filter-master/js/modernizr.js"></script> <!-- Modernizr -->
 
 	</head>
 	<body>
 
 	<div class="fh5co-loader"></div>
 
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container-wrap">
-			<div class="top-menu">
-				<div class="row">
-					<div class="header">
-  <img src="images/logo.png" alt="logo" />
+		<div id="page">
+			<nav class="fh5co-nav" role="navigation">
+				<div class="container-wrap">
+					<div class="top-menu">
+						<div class="row">
+							<div class="header">
+			<img src="images/logo.png" alt="logo" />
+		</div>
+							<div class="col-xs-10 text-right menu-1">
+								<ul>
+									<li><a href="index.html">HOME</a></li>
+									<li ><a href="shop.html">SHOP</a></li>
+												<li class="active"><a href="food.html">FOOD</a></li>
+													<li ><a href="faq.html">FAQ</a></li>
+														<li><a href="process.html">PROCESS</a></li>
+										<li ><a href="about.html">KNOW US</a></li>
 
-</div>
-					<div class="col-xs-10 text-right menu-1">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li class="active"><a href="food.html">Food</a></li>
-								<li><a href="menu.html">MENU</a></li>
-							<li><a href="nutrition.html">Nutrition</a></li>
-										<li><a href="location.html">LOCATIONS</a></li>
-							<!-- <li class="has-dropdown">
-								<a href="blog.html">Blog</a>
-								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
+										<li><div class="ec-cart-widget"></div>
+									 <div>
+									 <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?13466392&data_platform=code&data_date=2019-01-21" charset="utf-8"></script>
+									 <script type="text/javascript">Ecwid.init();</script>
+								 </div></li>
+
 								</ul>
-							</li> -->
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
+							</div>
+						</div>
 					</div>
 				</div>
+			</nav>
 
+<body>
+		<div class="container-wrap">
+
+
+	<main class="cd-main-content">
+
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder">
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li>
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">vegeterian</a></li>
+					<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">Non vegeterian</a></li>
+				</ul>
 			</div>
 		</div>
-	</nav>
+		<section class="cd-gallery">
+			<ul>
+				<li class="mix color-1 check3  check10">
+<!-- <a href="food1.html"> -->
+				 <img src="images/f1.jpg" alt="Image 1"></li>
+				<li class="mix  color-1  check10 check4 "><img src="images/f2.jpg" alt="Image 2"></li>
+				<li class="mix color-1 check7  check3"><img src="images/f3.jpg" alt="Image 3"></li>
+				<li class="mix color-1 check1  check2  check4 check8"><img src="images/f4.jpg" alt="Image 5"></li>
+				<li class="mix color-1 check10  check6"><img src="images/f5.jpg" alt="Image 6"></li>
+				<li class="mix color-1 check3  check5"><img src="images/f6.jpg" alt="Image 7"></li>
+				<li class="mix  check3  check9"><img src="images/f7.jpg" alt="Image 8"></li>
+				<li class="mix color-2 check11"><img src="images/f8.jpg" alt="Image 9"></li>
+				<li class="mix color-2 check12"><img src="images/f9.jpg" alt="Image 10"></li>
+				<li class="mix color-2 check12"><img src="images/f10.jpg" alt="Image 11"></li>
+				<li class="mix color-2 check13"><img src="images/f11.jpg" alt="Image 12"></li>
+					<li class="mix color-2   check14"><img src="images/f12.jpg" alt="Image 12"></li>
+					<li class="gap"></li>
+	<li class="gap"></li>
+	<li class="gap"></li>
+
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section>
+		<div class="cd-filter">
+			<form>
+
+				<div class="cd-filter-block">
+					<h4>Check boxes</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+
+						<li>
+							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+								<label class="checkbox-label" for="checkbox1">Carrot</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">Beans</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Birinjal</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check4" type="checkbox" id="checkbox4">
+								<label class="checkbox-label" for="checkbox4">Cauliflower</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check5" type="checkbox" id="checkbox5">
+							<label class="checkbox-label" for="checkbox5">Black Channa</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check6" type="checkbox" id="checkbox6">
+							<label class="checkbox-label" for="checkbox6">White Channa</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check7" type="checkbox" id="checkbox7">
+							<label class="checkbox-label" for="checkbox7">Pasala Keera</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check8" type="checkbox" id="checkbox8">
+							<label class="checkbox-label" for="checkbox8">Green Peas</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check9" type="checkbox" id="checkbox9">
+							<label class="checkbox-label" for="checkbox9">Kadalaparuppu</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check10" type="checkbox" id="checkbox10">
+								<label class="checkbox-label" for="checkbox4">potato</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check11" type="checkbox" id="checkbox11">
+							<label class="checkbox-label" for="checkbox11">Egg</label>
+						</li>
+						<li>
+			<input class="filter" data-filter=".check12" type="checkbox" id="checkbox12">
+							<label class="checkbox-label" for="checkbox12">chicken </label>
+						</li>
+						<li>
+			<input class="filter" data-filter=".check13" type="checkbox" id="checkbox13">
+							<label class="checkbox-label" for="checkbox13">Mutton </label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check14" type="checkbox" id="checkbox14">
+							<label class="checkbox-label" for="checkbox14">Fish</label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+			</form>
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-filter -->
+		<a href="#0" class="cd-filter-trigger">Filters</a><!-- cd-gallery -->
+	</div>
+	</main>
 	<div class="container-wrap">
-		<aside id="fh5co-hero">
-			<div class="flexslider">
-				<ul class="slides">
-			   	<li style="background-image: url(images/2.jpg);">
-			   		<div class="overlay-gradient"></div>
-		   			<div class="row">
-			   			<div class="col-md-6 col-md-offset-3 slider-text slider-text-bg">
-			   				<div class="slider-text-inner text-center">
-			   					<h1>Food</h1>
-									<!-- <h2>work.html-MAIN FOOD PAGE </h2> -->
-									<h2>our menus makes it easy for choosing between the healthy options</h2>
-			   				</div>
-			   			</div>
-			   		</div>
-			   	</li>
-			  	</ul>
-		  	</div>
-		</aside>
-		<div id="fh5co-work">
-			<div class="row">
-				<div class="col-md-4 text-center animate-box">
-					<a href="combos.html" class="work" style="background-image: url(images/20.jpg);">
-						<div class="desc">
-							<h3>COMBO'S</h3>
-							<span>9 Different Combos</span>
-						</div>
-					</a>
-				</div>
 
-				<div class="col-md-4 text-center animate-box">
-					<a href="main.html" class="work" style="background-image: url(images/38.jpg);">
-						<div class="desc">
-							<h3>MAIN</h3>
-							<span>14 Different Mains</span>
-
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<a href="entree.html" class="work" style="background-image: url(images/22.jpg);">
-						<div class="desc">
-							<h3>ENTREE</h3>
-							<span>14 different Entree</span>
-
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<a href="side.html" class="work" style="background-image: url(images/21.jpg);">
-						<div class="desc">
-							<h3>SIDE</h3>
-							<span>6 different Side</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<a href="biriyani.html" class="work" style="background-image: url(images/13.jpg);">
-						<div class="desc">
-							<h3>BRIYANI</h3>
-							<span>6 different Biriyani</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<!-- <a href="addons.html" class="work" style="background-image: url(images/portfolio-6.jpg);"> -->
-						<div class="desc">
-							<h3>ADD-ONS</h3>
-							<!-- <span>Illustration</span> -->
-						</div>
-					<!-- </a> -->
-				</div>
-			</div>
-		</div>
-	</div><!-- END container-wrap -->
-
-	<div class="container-wrap">
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="row">
 				<div class="col-md-3 fh5co-widget">
 					<h4>About CurryUp</h4>
-					<p>Curry Up is your "to-go" destination for your everyday food need! We make sure you get healthy hygienic food everytime and so you never worry eating a restaurant food!</p>
+					<p>CurryUp is your "to-go" destination for your everyday food need! Food is the one thing that should never be compromised even if everything around us changes. So we got you our Fresh ready-to-cook Thoku to eat healthy in this fast phase lifestyle. We make sure you get healthy hygienic food every time and so you never need to worry about your food habits.</p>
 				</div>
 			<!--	<div class="col-md-3 col-md-push-1">
 					<h4>Latest Posts</h4>
@@ -221,23 +266,23 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2018 CurryUp. All Rights Reserved.</small>
+						<small class="block">&copy; 2019 CurryUp. All Rights Reserved.</small>
 
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="https://wa.me/9789996168"><i class="icon-whatsapp"></i></a></li>
 							<li><a href="https://www.facebook.com/curryupfood/"><i class="icon-facebook"></i></a></li>
 							<li><a href="#"><i class="icon-linkedin"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
 						</ul>
 					</p>
 				</div>
-			</div>
+
 		</footer>
+		</div>
 	</div><!-- END container-wrap -->
 	</div>
-
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
@@ -259,6 +304,8 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+	<!-- <script src="js/jquery-2.1.1.js"></script> -->
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main0.js"></script>
 	</body>
-	</html>
+</html>
