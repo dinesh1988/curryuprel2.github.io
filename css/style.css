@@ -1263,7 +1263,7 @@ input[type="text"] {
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg);
 }
-
+            
 .gototop {
   position: fixed;
   bottom: 10px;
