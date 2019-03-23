@@ -1331,7 +1331,7 @@ h1 {
     animation: swing ease-in-out 1s infinite alternate;
     transform-origin: center -20px;
     float:right;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    /* box-shadow: 5px 5px 10px rgba(0,0,0,0.5); */
     margin-top: 10px;
     margin-right: 100px;
 }
@@ -1381,7 +1381,7 @@ h1 {
   box-sizing: border-box;
   border: none;
   border-radius: .50em;
-  height: 2.75em;
+  height: 3.72em;
   line-height: 2.5em;
   /* text-transform: uppercase; */
   padding: 0 1em;
