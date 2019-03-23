@@ -1331,7 +1331,11 @@ h1 {
     animation: swing ease-in-out 1s infinite alternate;
     transform-origin: center -20px;
     float:right;
+<<<<<<< HEAD
     /* box-shadow: 5px 5px 10px rgba(0,0,0,0.5); */
+=======
+/*     box-shadow: 5px 5px 10px rgba(0,0,0,0.5); */
+>>>>>>> e3fe8ba768afaac83c8a42b7b8ae6019a58588ad
     margin-top: 10px;
     margin-right: 100px;
 }
