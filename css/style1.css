@@ -108,6 +108,7 @@ xtab-filter
 -------------------------------- */
 .cd-tab-filter-wrapper {
   background-color: transparent;
+
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
   z-index: 1;
   margin-top: 80px;
@@ -152,7 +153,7 @@ xtab-filter
   position: absolute;
   top: 0;
   left: 0;
-  background-color: lightgreen;
+  background-color: transparent;
   box-shadow: inset 0 -2px 0 #41307c;
 }
 .cd-tab-filter li {
