@@ -47,10 +47,11 @@ Main Components
   font-size: 2.4rem;
   font-weight: 300;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1500px) {
   .cd-header {
     height: 180px;
   }
+
   .cd-header h1 {
     line-height: 180px;
   }
@@ -89,12 +90,12 @@ Main Components
 .cd-main-content.is-fixed .cd-filter-trigger {
   position:relative;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1500px) {
   .cd-main-content.is-fixed .cd-gallery {
     padding-top: 90px;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1500px) {
   .cd-main-content.is-fixed .cd-gallery {
     padding-top: 100px;
   }
@@ -192,7 +193,7 @@ xtab-filter
   /* reduces the opacity of the placeholder on mobile when the menu is open */
   opacity: .4;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1500px) {
   .cd-tab-filter {
     /* tabbed navigation style on medium devices */
     width: auto;
@@ -236,7 +237,7 @@ xtab-filter
     display: inline-block;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1500px) {
   .cd-tab-filter {
     /* tabbed navigation on big devices */
     width: 100%;
@@ -287,7 +288,7 @@ xgallery
   display: none;
   text-align: center;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1500px) {
   .cd-gallery {
     padding: 80px 1%;
   }
@@ -304,7 +305,7 @@ xgallery
     margin-bottom: 2em;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1500px) {
   .cd-gallery {
     padding: 100px 14%;
     float: right;
@@ -397,7 +398,7 @@ xfilter
 .cd-filter.filter-is-visible .cd-close {
   opacity: 1;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1500px) {
   .cd-filter {
     width: 20%;
   }
@@ -424,7 +425,7 @@ xfilter
 .cd-filter-trigger.filter-is-visible {
   pointer-events: none;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1500px) {
   .cd-filter-trigger {
     width: auto;
     left: 0%;
