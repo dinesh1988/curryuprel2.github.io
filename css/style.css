@@ -658,14 +658,14 @@ margin-bottom:100px;
   border-radius: 50%;
   display: block;
   background: #fff;
-  border: 2px solid #d4fc79;
+  border: 2px solid #172b3d;
   margin: 0 5px;
 }
 .gtco-testimonials .owl-dots .active {
   box-shadow: none;
 }
 .gtco-testimonials .owl-dots .active span {
-  background: #d4fc79;
+  background: #172b3d;
   box-shadow: none;
   height: 12px;
   width: 12px;
