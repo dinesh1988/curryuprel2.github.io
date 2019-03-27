@@ -141,11 +141,11 @@ font-family: 'Comfortaa',Bold;
   content: "";
   height: 600px;
   width: 900px;
-  background-image: -webkit-linear-gradient(-220deg,#ffde59 ,  #F0C30E );
-  background-image: -moz-linear-gradient(-220deg,#ffde59 ,  #F0C30E );
-  background-image: -ms-linear-gradient(-220deg, #ffde59 ,  #F0C30E );
-  background-image: -o-linear-gradient(-220deg,#ffde59 ,  #F0C30E );
-  background-image: linear-gradient(-220deg,#ffde59 ,  #F0C30E );
+  background-image: -webkit-linear-gradient(-220deg,#ffde59 ,  #F6D862 );
+  background-image: -moz-linear-gradient(-220deg,#ffde59 ,  #F6D862 );
+  background-image: -ms-linear-gradient(-220deg, #ffde59 ,  #F6D862 );
+  background-image: -o-linear-gradient(-220deg,#ffde59 ,  #F6D862 );
+  background-image: linear-gradient(-220deg,#ffde59 ,  #F6D862 );
   left: 49.5%;
   top: -50px;
   z-index: -1;
@@ -491,7 +491,7 @@ margin-bottom:100px;
  */
 .gtco-features .col-lg-8 .card .oval {
   /* background: linear-gradient(to right, #f1f6fd, #f0fbfe); */
-  background-color:#d3e29d;
+  background-color:#FFEFAA;
   padding: 10px;
   width: 150px;
   border-radius: 50%;
