@@ -1222,7 +1222,6 @@ margin-bottom:100px;
 .accordion__link:not(.accordion__link_active):hover:after {
 	border-top: 12px #ffffff solid;
 }
-
 /*
 *	Стили для подменю
 */
