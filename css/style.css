@@ -39,7 +39,7 @@
   src: url(../fonts/OpenSans-Semibold.ttf);
 }
 p {
-font-family: 'Poppins', sans-serif;
+font-family:'Nunito', sans-serif;
   color: #666666;
   font-size: 16px;
 }
@@ -965,3 +965,6 @@ margin-bottom:100px;
     opacity: 0;
   }
 }
+
+
+/* carou */
